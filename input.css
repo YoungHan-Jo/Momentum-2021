@@ -1,0 +1,63 @@
+input {
+  border: none;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 400px;
+  height: 50px;
+  margin: 10px 30px;
+  color: white;
+  font-size: 30px;
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+input:focus {
+  outline: none;
+}
+.greetings {
+  display: flex;
+  width: 400px;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.7);
+  font-size: 30px;
+  padding: 0 20px;
+  border-radius: 20px;
+  margin: 10px 30px;
+  box-sizing: border-box;
+}
+
+input::placeholder {
+  color: white;
+  font-size: 20px;
+  padding-left: 15px;
+}
+
+.weather {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+  border-radius: 20px;
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.toDoList {
+  width: 400px;
+  height: 400px;
+  background-color: rgba(0, 0, 0, 0.7);
+  margin: 0 30px;
+  padding: 20px;
+  font-size: 20px;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+
+.toDoList li {
+  margin: 20px 0;
+}
+
+li button {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  font-size: 20px;
+}

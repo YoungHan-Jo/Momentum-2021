@@ -1,0 +1,19 @@
+.clock {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 400px;
+  height: 125px;
+  justify-content: center;
+  align-items: flex-end;
+  border-radius: 20px;
+  font-size: 50px;
+  margin: 30px 30px;
+}
+.clock span {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.clock h1 {
+  margin-bottom: 0px;
+}

@@ -1,6 +1,11 @@
+@import "clock.css";
+@import "input.css";
+
 body {
   background-color: #2d3436;
   color: white;
+  display: flex;
+  flex-direction: column;
 }
 
 .form,
